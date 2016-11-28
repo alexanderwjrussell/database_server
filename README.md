@@ -1,5 +1,4 @@
-# Database Server
-#### Tech Test 1
+# Database Server - Tech Test 1
 
 ### The Brief
 
