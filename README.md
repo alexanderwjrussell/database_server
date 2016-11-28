@@ -21,4 +21,4 @@ Create a new git repository and write code to fulfill the brief to the best of y
 - [x] Output the value in a string
 
 ### Future Advancements
-- [] Have a data store to store each of the key:value pairs
+- [ ] Have a data store to store each of the key:value pairs
