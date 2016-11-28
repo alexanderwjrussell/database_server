@@ -7,7 +7,6 @@ require File.join(File.dirname(__FILE__), '..', 'lib/app.rb')
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
-require '../lib/data_store'
 
 
 Capybara.app = DatabaseServer
