@@ -8,6 +8,6 @@ feature 'Database Server' do
 
   scenario 'should return the params data on the /set path' do
     visit '/set?somekey=somevalue'
-    expect(page).to eq '{"somekey":"somevalue"}'
+    expect(page).to have_content "{'somekey':'somevalue'}"
   end
 end
