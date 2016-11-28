@@ -1,5 +1,4 @@
 require 'sinatra'
-require 'json'
 
 class DatabaseServer < Sinatra::Base
   set :port, 4000
