@@ -1,5 +1,14 @@
 # Database Server - Tech Test 1
 
+### Installation
+
+```
+$ git clone https://github.com/alexanderwjrussell/database_server
+$ cd database_server
+$ bundle
+$ ruby lib/app.rb
+```
+
 ### The Brief
 
 You receive a message from a prospective employer:
