@@ -14,6 +14,6 @@ feature 'Database Server' do
   scenario "should return the key from the params on the /get path" do
     visit '/set?somekey=somevalue'
     visit '/get?key=somekey'
-    expect(page).to have_content "{'value' : 'somevalue'}"
+    expect(page).to have_content "{'value':'somevalue'}"
   end
 end

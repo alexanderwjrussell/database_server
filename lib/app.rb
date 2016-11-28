@@ -16,5 +16,10 @@ class DatabaseServer < Sinatra::Base
     "{'#{key}':'#{value}'}"
   end
 
+  get '/get' do
+    value = session[params[:key]]
+    "{'value':'#{value}'}"
+  end
+
   run! if app_file == $0
 end
